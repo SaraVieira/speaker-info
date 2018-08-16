@@ -1,12 +1,12 @@
 <template>
 <main class="flex">
-  <div class="w-50 pa3 mr2">
+  <div class="w-50 pa3 mr2 wow">
     <section class="mb4 relative" v-for="photo in info.photos" :key="photo">
       <img :src="photo" class="db"/>
       <label class="b mt2 db">{{photo}}</label>
     </section>
   </div>
-   <div class="w-50 pa3 mr2">
+   <div class="w-50 pa3 mr2 okay">
     <dl class="lh-title pa4 mt0">
       <dt class="f6 b mb1" v-if="info.name">Name</dt>
       <dd class="ml0 mb3" v-if="info.name">{{info.name}}</dd>
@@ -61,8 +61,24 @@ label {
       
     }
 
+    .okay{
+      margin-left: -280px;
+      margin-top: -30px;
+
+    }
+
+    .wow{
+     margin-top: 550px;
+     display: flex;
+     margin-left: -50px;
+    }
+
     .db{
-      display: none;
+      border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    margin-left: 60px;
     }
 
     .f6{
