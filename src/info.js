@@ -23,7 +23,7 @@ export default {
       id: '_XJFeSZV6FI'
     },
     {
-      name: 'Your brain doesn\'t have a --fix flag',
+      name: "Your brain doesn't have a --fix flag",
       conference: 'AgentConf',
       year: 2018,
       id: 'bovBQtB_PDo'

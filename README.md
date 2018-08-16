@@ -2,14 +2,13 @@
 
 https://speaker.iamsaravieira.com
 
-
 ## How to make it your own:
 
-1. Fork this Repo
-2. Clone it
-3. Edit the src/info.js with your data
-4. Run `yarn build`
-5. Deploy the dist folder to any static host like Now or Netlify
+1.  Fork this Repo
+2.  Clone it
+3.  Edit the src/info.js with your data
+4.  Run `yarn build`
+5.  Deploy the dist folder to any static host like Now or Netlify
 
 ## The info.js file
 
@@ -43,12 +42,15 @@ export default {
 
 ## Project setup
 ```
-yarn install
-yarn dev
-```
 
+yarn install yarn dev
+
+```
 ### Compile
+```
+
+yarn run build
 
 ```
-yarn run build
+
 ```
