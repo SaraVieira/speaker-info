@@ -9,9 +9,9 @@ export default {
     twitter: 'https://twitter.com/NikkitaFTW',
     github: 'https://github.com/SaraVieira',
     photos: [
-      'https://i.imgur.com/b8CEu1Q.jpg',
-      'https://media.graphcms.com//C4wRkgcQgOg3g29OCInK',
-      'https://pbs.twimg.com/profile_images/993590021276995584/GRGg5x8v_400x400.jpg'
+      'https://bit.ly/2wbkGv5',
+      'https://bit.ly/2wbW5pN',
+      'https://bit.ly/2Mm5bew'
     ]
   },
   talksPrepared: '3a599ee71c145f4db94655440456bbab', // Gist with your talks

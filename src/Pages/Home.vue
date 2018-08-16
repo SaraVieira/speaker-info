@@ -48,4 +48,35 @@ label {
     padding: 3px 10px;
     width: 100%;
 }
+
+
+@media only screen 
+  and (min-width: 217px) 
+  and (max-width: 491px){
+    .pa3{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -100px;
+      
+    }
+
+    .db{
+      display: none;
+    }
+
+    .f6{
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    label {
+    position: relative;
+    margin-top: -23px;
+    left: 0;
+    background: rgba(255,255, 255, 0.7);
+    padding: 3px 10px;
+    width: 100%;
+}
+  }
 </style>
