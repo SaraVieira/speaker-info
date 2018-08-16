@@ -1,0 +1,5 @@
+{
+  "type": "docker",
+  "name": "speaker-info",
+  "alias": "speaker.iamsaravieira.com"
+}

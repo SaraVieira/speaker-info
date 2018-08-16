@@ -2,26 +2,19 @@
 
 https://speaker.iamsaravieira.com
 
-## Project setup
 
+## How to make it your own:
+
+* Fork this Repo
+
+## Project setup
 ```
 yarn install
+yarn dev
 ```
 
-### Compiles and hot-reloads for development
-
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
+### Compile
 
 ```
 yarn run build
-```
-
-### Lints and fixes files
-
-```
-yarn run lint
 ```

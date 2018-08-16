@@ -1,13 +1,14 @@
 <template>
 <main class="flex">
   <div class="w-50 pa3 mr2">
+    <h2> Photos </h2>
     <section class="mb4 relative" v-for="photo in info.photos" :key="photo">
       <img :src="photo" class="db"/>
-      <label class="b mt2 db">{{photo}}</label>
     </section>
   </div>
    <div class="w-50 pa3 mr2">
-    <dl class="lh-title pa4 mt0">
+    <h2 class="pl4"> Info </h2>
+    <dl class="lh-title pa4 pt0 mt0">
       <dt class="f6 b mb1" v-if="info.name">Name</dt>
       <dd class="ml0 mb3" v-if="info.name">{{info.name}}</dd>
       <dt class="f6 b mb1" v-if="info.email">Email</dt>
@@ -39,13 +40,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-label {
-    position: absolute;
-    margin-top: -23px;
-    left: 0;
-    background: rgba(255,255, 255, 0.7);
-    padding: 3px 10px;
-    width: 100%;
-}
-</style>
