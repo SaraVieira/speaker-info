@@ -21,4 +21,14 @@
   font-size: 15px;
   line-height: 1.5;
 }
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 700px){
+    nav{
+      text-align: center;
+      font-weight: bold;
+      padding-left: 50%;
+    }
+  }
 </style>
