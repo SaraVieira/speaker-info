@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "format": "prettier --write '**/*.{js,css,md}'",
-    "posttest": "npm run format"
+    "deploy": "npm run build && now"
   },
   "dependencies": {
     "vue": "^2.5.17",
