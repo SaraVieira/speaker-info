@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <h1>Talks to give</h1>
-
     <vue-markdown v-if="file">{{file.content}}</vue-markdown>
   </div>
 </template>

@@ -24,37 +24,34 @@ export default {
   }
 }
 </script>
+
 <style scoped>
-@media only screen 
-  and (min-width: 320px) 
+@media only screen
+  and (min-width: 320px)
   and (max-width: 700px){
-  .videos{
-    width: 100%;
-    font-size: 20px;
-    margin-left: 8px;
-}
-  .vname{
-    font-size: 13px;
-    font-weight: bold;
-    font-style: italic;
-  }
+    .videos {
+      width: 100%;
+      font-size: 20px;
+      margin-left: 8px;
+    }
 
-  .vconf{
-    font-size: 13px;
-    color: green;
-    
-  }
+    .vname {
+      font-size: 14px;
+      font-weight: bold;
+      font-style: italic;
+    }
 
-  .vyear{
-    font-size: 13px;
-    color: rebeccapurple;
-    margin-top:-30%;
-    
-  }
+    .vconf {
+      font-size: 13px;
+    }
 
-  h1{
-    text-align: center;
-  }
-  }
+    .vyear{
+      font-size: 13px;
+      margin-top:-30%;
+    }
 
+    h1{
+      text-align: center;
+    }
+  }
 </style>

@@ -3,7 +3,6 @@
   <div class="w-50 pa3 mr2 wow">
     <section class="mb4 relative" v-for="photo in info.photos" :key="photo">
       <img :src="photo" class="db"/>
-      <label class="b mt2 db">{{photo}}</label>
     </section>
   </div>
    <div class="w-50 pa3 mr2 okay">
@@ -40,59 +39,36 @@ export default {
 }
 </script>
 <style scoped>
-label {
-    position: absolute;
-    margin-top: -23px;
-    left: 0;
-    background: rgba(255,255, 255, 0.7);
-    padding: 3px 10px;
-    width: 100%;
-}
-
-
-@media only screen 
-  and (min-width: 217px) 
-  and (max-width: 491px){
-    .pa3{
+@media only screen and (max-width: 700px){
+    .pa3 {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
       margin-left: -100px;
-      
     }
 
-    .okay{
+    .okay {
       margin-left: -280px;
       margin-top: -30px;
-
     }
 
-    .wow{
+    .wow {
      margin-top: 550px;
      display: flex;
      margin-left: -50px;
     }
 
-    .db{
+    .db {
       border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 250px;
-    margin-left: 60px;
+      border-radius: 4px;
+      padding: 5px;
+      max-width: 100%;
+      margin-left: 60px;
     }
 
-    .f6{
+    .f6 {
       font-size: 18px;
       font-weight: bold;
     }
-
-    label {
-    position: relative;
-    margin-top: -23px;
-    left: 0;
-    background: rgba(255,255, 255, 0.7);
-    padding: 3px 10px;
-    width: 100%;
-}
   }
 </style>
