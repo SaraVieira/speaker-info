@@ -39,18 +39,15 @@ export default {
     ...
   ]
 }
-
+```
 ## Project setup
-```
 
+```
 yarn install yarn dev
-
 ```
+
 ### Compile
-```
 
+```
 yarn run build
-
-```
-
 ```
