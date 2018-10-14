@@ -51,6 +51,3 @@ yarn install yarn dev
 ```
 yarn run build
 ```
-
-
-
